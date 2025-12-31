@@ -1,11 +1,11 @@
 import math
 
-print("CALCULATE_WITH_PYTHON")
-print("USE MATH FUNCTIONS DIRECTLY OR USING MATH.FUNCTION_NAME FOR SOME SPECIAL OPRATIONS")
-print("WANT TO QUIT TYPE EXIT ")
+print("--------------CALCULATE_WITH_PYTHON---------------")
+print("1. USE MATH FUNCTIONS DIRECTLY OR USING MATH.FUNCTION_NAME FOR SOME SPECIAL OPRATIONS.")
+print("2. WANT TO QUIT TYPE EXIT.")
 
 while True:
-    expr = input(">>> ")
+    expr = input("------>")
 
     if expr.lower() == "EXIT":
         print("CALCULATOR CLOSED")
