@@ -1,18 +1,18 @@
 import math
 
-print("calculateWithPython")
-print("Use math functions directly or using math.")
-print("WANT TO QUIT TYPE exit ")
+print("CALCULATE_WITH_PYTHON")
+print("USE MATH FUNCTIONS DIRECTLY OR USING MATH.FUNCTION_NAME FOR SOME SPECIAL OPRATIONS")
+print("WANT TO QUIT TYPE EXIT ")
 
 while True:
     expr = input(">>> ")
 
-    if expr.lower() == "exit":
-        print("Calculator Closed")
+    if expr.lower() == "EXIT":
+        print("CALCULATOR CLOSED")
         break
 
     try:
         result = eval(expr)
         print("=", result)
     except:
-        print("Invalid Expression")
+        print("INVALID EXPRESSION")
